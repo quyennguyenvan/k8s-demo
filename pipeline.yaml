@@ -14,7 +14,7 @@ variables:
   - name: bucketName
     value: tf-artifact-quyennv
   - name: backendkey
-    value: tf/demo-k8s/state.tf
+    value: tf/demo-k8s/state.tfstate
 
 parameters:
   - name: Action

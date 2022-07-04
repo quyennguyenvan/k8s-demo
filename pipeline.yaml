@@ -95,3 +95,4 @@ stages:
               backendServiceAWS: "aws-apsoutheast"
               backendAWSBucketName: "$(bucketName)"
               backendAWSKey: "$(backendkey)"
+              commandOptions: '-input=false  -var "access_key=$(access_key)" -var "secret_key=$(secret_key)"-auto-approve'

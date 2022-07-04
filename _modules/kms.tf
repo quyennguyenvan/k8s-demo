@@ -4,6 +4,5 @@ resource "aws_kms_key" "kms" {
   key_usage               = "ENCRYPT_DECRYPT"
   deletion_window_in_days = 30
   enable_key_rotation     = true
-  multi_region            = false
   tags                    = var.default_tags
 }

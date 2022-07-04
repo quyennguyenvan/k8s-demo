@@ -10,5 +10,5 @@ output "k8s-endpoint" {
 }
 
 output "k8s-kubeconfig-certificate-authority-data" {
-  value = module.eks.k8s-kubeconfig-certificate-authority-data
+  value = module.eks.kubeconfig-certificate-authority-data
 }
